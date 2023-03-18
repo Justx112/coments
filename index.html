@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" action="">
+            <fieldset class="form__fieldset">
+                <input type="text" placeholder="Введите имя" min="3" required class="form__input" name="name">
+                <input type="text" placeholder="Введите фамилию" min="3" required class="form__input" name="surename">
+                <textarea type="text" placeholder="Ваше сообщение" required class="form__input" maxlength='255' name="comment"></textarea>
+            </fieldset>
+            <p class="form__counter"></p>
+            <input type="date" class="form__data" name="date">
+            <button type="submit" class="form__button">Отправить</button>
+        </form>
+        <div class="container_coments">
+            <div class="coment">
+                <div class="coment__header_container">
+                    <h3 class="coment__name">Mikhail Golishko</h1>
+                    <p class="coment__date">Вчера 20:30</p>
+                </div>
+                <div class="coment__mesage_container">
+                    <p class="coment__message">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse quae deleni
+                        ti expedita
+                         des
+                        erunt 
+                        excepturi accusamus at
+                    assumenda? Ex id illo nostrum accusantium unde fugiat, consequuntur laboriosam voluptatibus perspiciatis commodi eaque
+                    similique fuga quos reiciendis numquam</p>
+                </div>
+                <img src="src/like.svg" alt="" class="coment__like">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
